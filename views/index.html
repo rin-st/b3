@@ -1,0 +1,55 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shortener service</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Shortener Service
+      </h1>
+    </header>
+
+    <main>
+      <h2>
+        Example creation usage:
+      </h2>
+      <span>https://shs.glitch.me/new/https://www.google.com</span>
+      <h2>
+        Example creation output
+      </h2>
+          <span>{ "Original_URL":"https://google.com", "Short_URL":"https://shs.glitch.me/8170" }</span>
+      <h2>
+        Usage:
+      </h2>
+        <span>https://shs.glitch.me/8170</span>
+      <h2>
+        Will redirect to:
+      </h2>
+        <span>https://www.google.com/</span>
+      
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <!--<script src="/client.js"></script>-->
+
+  </body>
+</html>

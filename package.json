@@ -1,0 +1,18 @@
+{
+
+  "name": "shortener-service",
+  "version": "0.0.1",
+  "description": "Url-shortener",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.1.3",
+    "valid-url": "^1.0.1"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
